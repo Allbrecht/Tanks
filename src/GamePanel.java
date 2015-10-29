@@ -116,7 +116,6 @@ public class GamePanel extends JPanel implements Runnable{
 		int height = HEIGHT /gameLevel.length;
 		int px = 0;
 		int py = 0;
-
 		for (int i = 0; i < gameLevel.length; i++) {
 			for (int j = 0; j < gameLevel[0].length; j++) {
 				switch(gameLevel[i][j]){
